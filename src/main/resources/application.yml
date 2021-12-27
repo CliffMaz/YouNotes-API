@@ -11,9 +11,9 @@
       #password: Q4xrMe0GKBCQN5pBksR0
       #hikari:
        # maxLifetime: 28000
-MYSQL_ADDON_HOST=bpoqqlmozbaodraojb6t-mysql.services.clever-cloud.com
-MYSQL_ADDON_DB=bpoqqlmozbaodraojb6t
-MYSQL_ADDON_USER=uey6mhaskt1xl5si
-MYSQL_ADDON_PORT=3306
-MYSQL_ADDON_PASSWORD=Q4xrMe0GKBCQN5pBksR0
-MYSQL_ADDON_URI=mysql://uey6mhaskt1xl5si:Q4xrMe0GKBCQN5pBksR0@bpoqqlmozbaodraojb6t-mysql.services.clever-cloud.com:3306/bpoqqlmozbaodraojb6t
+#MYSQL_ADDON_HOST=bpoqqlmozbaodraojb6t-mysql.services.clever-cloud.com
+#MYSQL_ADDON_DB=bpoqqlmozbaodraojb6t
+#MYSQL_ADDON_USER=uey6mhaskt1xl5si
+#MYSQL_ADDON_PORT=3306
+#MYSQL_ADDON_PASSWORD=Q4xrMe0GKBCQN5pBksR0
+#MYSQL_ADDON_URI=mysql://uey6mhaskt1xl5si:Q4xrMe0GKBCQN5pBksR0@bpoqqlmozbaodraojb6t-mysql.services.clever-cloud.com:3306/bpoqqlmozbaodraojb6t
