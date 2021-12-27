@@ -2,7 +2,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto-drop
+      ddl-auto=create
     dialect: org.hibernate.dialect.MySQL8Dialect
+
     datasource:
       url: "mysql://uey6mhaskt1xl5si:Q4xrMe0GKBCQN5pBksR0@bpoqqlmozbaodraojb6t-mysql.services.clever-cloud.com:3306/bpoqqlmozbheraodraojb6t"
       username: uey6mhaskt1xl5si
