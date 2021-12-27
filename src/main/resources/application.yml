@@ -2,7 +2,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto-drop
-      ddl-auto=create
+      ddl-auto-create
     dialect: org.hibernate.dialect.MySQL8Dialect
     
     datasource:
