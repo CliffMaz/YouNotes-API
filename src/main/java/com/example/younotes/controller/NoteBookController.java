@@ -24,7 +24,7 @@ public class NoteBookController {
 
     @GetMapping("/all")
     public List<NoteBook> all() {
-        var allCategories = this.noteBookService.findAll();
+        List<NoteBook> allCategories = this.noteBookService.findAll();
         return allCategories;
     }
 
