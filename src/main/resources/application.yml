@@ -3,8 +3,8 @@ spring:
     hibernate:
       ddl-auto-drop
     dialect: org.hibernate.dialect.MySQL8Dialect
-   datasource:
-      url: "mysql://uey6mhaskt1xl5si:Q4xrMe0GKBCQN5pBksR0@bpoqqlmozbaodraojb6t-mysql.services.clever-cloud.com:3306/bpoqqlmozbaodraojb6t"
+    datasource:
+      url: "mysql://uey6mhaskt1xl5si:Q4xrMe0GKBCQN5pBksR0@bpoqqlmozbaodraojb6t-mysql.services.clever-cloud.com:3306/bpoqqlmozbheraodraojb6t"
       username: uey6mhaskt1xl5si
       password: Q4xrMe0GKBCQN5pBksR0
       hikari:
