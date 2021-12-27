@@ -39,7 +39,7 @@ public class NoteController {
 
     @GetMapping("/{id}")
     public Note byId(@PathVariable Integer id) {
-        var note = this.noteService.findNoteById(id);
+        Note note = this.noteService.findNoteById(id);
 
         return note;
     }
