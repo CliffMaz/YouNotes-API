@@ -32,7 +32,7 @@ public class NoteController {
     @GetMapping("/test")
     public String getTest(){
 
-        
+
 
         return " testing";
     }
