@@ -29,6 +29,13 @@ public class NoteController {
         this.noteBookService=noteBookService;
     }
 
+    @GetMapping("/test")
+    public String getTest(){
+
+        
+
+        return " testing";
+    }
     @GetMapping("/all")
     public List<Note> getAllNotes(){
 
