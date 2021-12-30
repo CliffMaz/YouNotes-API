@@ -1,4 +1,4 @@
-package com.example.younotes;
+/*package com.example.younotes;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -24,3 +24,4 @@ public class CorsFilter extends OncePerRequestFilter {
         filterChain.doFilter(request, response);
     }
 }
+*/
