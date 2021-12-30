@@ -16,7 +16,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/notes")
-@CrossOrigin(origins="https://younotes-app-1.herokuapp.com/")
+@CrossOrigin(origins="https://younotes-app-1.herokuapp.com")
 public class NoteController {
 
     private final NoteService noteService;
@@ -29,7 +29,7 @@ public class NoteController {
         this.noteBookService=noteBookService;
     }
 
-    @CrossOrigin(origins="https://younotes-app-1.herokuapp.com/")
+    @CrossOrigin(origins="https://younotes-app-1.herokuapp.com")
     @GetMapping("/test")
     public String getTest(){
 
