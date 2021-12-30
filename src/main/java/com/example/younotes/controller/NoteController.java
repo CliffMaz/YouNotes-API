@@ -29,6 +29,7 @@ public class NoteController {
         this.noteBookService=noteBookService;
     }
 
+    @CrossOrigin(origins="https://younotes-app-1.herokuapp.com/")
     @GetMapping("/test")
     public String getTest(){
 
