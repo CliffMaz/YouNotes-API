@@ -16,7 +16,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/notes")
-@CrossOrigin(origins="https://younotes-app-1.herokuapp.com")
+@CrossOrigin(origins="*")
 public class NoteController {
 
     private final NoteService noteService;
@@ -29,7 +29,6 @@ public class NoteController {
         this.noteBookService=noteBookService;
     }
 
-    @CrossOrigin(origins="*")
     @GetMapping("/test")
     public String getTest(){
 
@@ -37,7 +36,7 @@ public class NoteController {
 
         return " testing";
     }
-    @CrossOrigin(origins="*")
+
     @GetMapping("/all")
     public List<Note> getAllNotes(){
 
@@ -46,7 +45,6 @@ public class NoteController {
         return notes;
     }
 
-    @CrossOrigin(origins="*")
     @GetMapping("/{id}")
     public Note byId(@PathVariable Integer id) {
         Note note = this.noteService.findNoteById(id);

@@ -11,7 +11,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/notebooks")
-@CrossOrigin
+@CrossOrigin(origins="*")
 public class NoteBookController {
 
 
